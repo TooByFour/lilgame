@@ -15,6 +15,11 @@ class Cube {
             glBindVertexArray(VAO);
             glDrawArrays(GL_TRIANGLES, 0, 36);
         }
+        void Delete()
+        {
+            glDeleteVertexArrays(1, &VAO);
+            glDeleteBuffers(1, &VBO);
+        }
 
     private:
         unsigned int VAO, VBO;
