@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/toby/Documents/Projects/lilgame/build",
+  "command": "/usr/bin/clang++ -I/home/toby/Documents/Projects/lilgame/include -g -std=gnu++23 @CMakeFiles/lilgame.dir/src/main.cpp.o.modmap -o CMakeFiles/lilgame.dir/src/main.cpp.o -c /home/toby/Documents/Projects/lilgame/src/main.cpp",
+  "file": "/home/toby/Documents/Projects/lilgame/src/main.cpp",
+  "output": "/home/toby/Documents/Projects/lilgame/build/CMakeFiles/lilgame.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/toby/Documents/Projects/lilgame/build",
+  "command": "/usr/bin/cc -I/home/toby/Documents/Projects/lilgame/include -g -o CMakeFiles/lilgame.dir/src/glad.c.o -c /home/toby/Documents/Projects/lilgame/src/glad.c",
+  "file": "/home/toby/Documents/Projects/lilgame/src/glad.c",
+  "output": "/home/toby/Documents/Projects/lilgame/build/CMakeFiles/lilgame.dir/src/glad.c.o"
+}
+]
