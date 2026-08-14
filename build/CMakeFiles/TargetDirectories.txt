@@ -1,3 +1,0 @@
-/home/toby/Documents/Projects/lilgame/build/CMakeFiles/lilgame.dir
-/home/toby/Documents/Projects/lilgame/build/CMakeFiles/edit_cache.dir
-/home/toby/Documents/Projects/lilgame/build/CMakeFiles/rebuild_cache.dir
