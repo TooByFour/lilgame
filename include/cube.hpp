@@ -17,6 +17,11 @@ class Cube {
         {
             setupCube();
         }
+        Cube(glm::vec3 pos)
+        {
+            setupCube();
+            this->position = pos;
+        }
         Cube(glm::vec3 pos, glm::fquat ori)
         {
             setupCube();
