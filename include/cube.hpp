@@ -42,6 +42,10 @@ class Cube {
         {
             orientation = glm::normalize(orientation * glm::angleAxis(angle, axis));
         }
+        void Translate(glm::vec3 motion)
+        {
+            position += motion;
+        }
 
     private:
         unsigned int VAO, VBO;

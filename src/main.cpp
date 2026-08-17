@@ -94,6 +94,7 @@ int main()
         // glm::mat4 model = glm::mat4(1.0f);
         // model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
         // lightingShader.setMat4("model", model);
+        cube.Translate(glm::vec3(0.0, (float)0.005 * sin(glfwGetTime()), 0.0));
         cube.Rotate((float)deltaTime * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
         cube.Draw(lightingShader);
 
